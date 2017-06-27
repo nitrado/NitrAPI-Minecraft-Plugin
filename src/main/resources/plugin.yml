@@ -1,0 +1,9 @@
+name: Nitrapi-Minecraft
+main: net.nitrado.MineNitrapi
+version: 1.0
+commands:
+  nitrapi:
+    description: Call the Nitrapi for help
+    usage: /nitrapi <auth|check|whoami|games|services|restart|backup>
+    permission: minenitrapi.nitrapi
+    permission-message: Sorry, but you have not the permission minenitrapi.nitrapi
